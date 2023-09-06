@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Complex Form</h1>
+    
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+                <label for="name">Name</label>
+                <input type="text" name="Name" id="name"> <br/> <br/>
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="email"> <br/> <br/>
+                <label for="phNo">Phone Number</label>
+                <input type="tel" name="Phone Number" id="phNo"> <br/> <br/>
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="DOB" id="dob"> <br/> <br/>
+                <label for="gender">Gender: </label>
+                <label for="genSel1">Male</label>
+                <input type="radio" name="Gender" id="genSel1" value="Male">
+                <label for="genSel2">Female</label>
+                <input type="radio" name="Gender" id="genSel2" value="Female">
+                <label for="genSel3">Not Specify</label>
+                <input type="radio" name="Gender" id="genSel#" value="Not Specify"> <br/> <br/>
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="none" selected disabled hidden>Select a option</option>
+                    <!-- <option selected>Select Country</option> -->
+                    <option value="India">India</option>
+                    <option value="America">America</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Australia">Australia</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Address</legend>
+                <label for="street">Street: </label>
+                <input type="text" id="street" name="Street"> <br/> <br/>
+                <label for="city">City: </label>
+                <input type="text" id="city" name="City"> <br/> <br/>
+                <label for="state">State: </label>
+                <input type="text" id="state" name="State"> <br/> <br/>
+                <label for="pincode">Pin-Code: </label>
+                <input type="tel" id="pincode" name="Pin Code">
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information</legend>
+                <label for="comments">Comments: ></label> <br/> <br/>
+                <textarea name="Comments" id="comments" placeholder="Please share your thoughts...." rows="5" cols="30"></textarea> <br/> <br/>
+                <label for="checkbox">I Agree to the terms of service </label>
+                <input type="checkbox" id="checkbox" name="Checkbox">
+        </fieldset> <br/> <br/>
+
+        <button>Submit</button>
+    </form>
+
+
+
+
+
+</body>
+</html>
